@@ -4,7 +4,7 @@ TOPDIR := $(shell if [ "$$PWD" != "" ]; then echo $$PWD; else pwd; fi)
 
 TARGET = pthread_test
 OBJS = pthread_test.o
-LIBS = -lpthread
+LIBS = -lpthread #-l 옵션은 다음에 나오는 library를 부착할 수 있는것
 
 INCLUDEDIR = 
 LIBDIR = 
