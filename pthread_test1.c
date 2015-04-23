@@ -30,12 +30,9 @@ int main( void )
                         NULL,                       /* 쓰레드 속성 */
                         ( void* (*)(void*) )Thread, /* 쓰레드 시작 함수 */
                         &thread_args[i] );          /* 생성된 쓰레드에 전달 인자 */
-<<<<<<< HEAD
     printf("hot fix add \n"); 
-=======
 	printf("issue test\n");
     
->>>>>>> iss53
     pthread_exit(0); /*메인 쓰레드 종료 */
 }
 
